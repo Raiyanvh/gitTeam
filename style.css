@@ -190,6 +190,62 @@ nav ul li a:hover {
     line-height: 1.8;
 }
 
+/* ===== About Section ===== */
+.about {
+    padding: 80px 45px;
+    background-color: white;
+    text-align: center;
+}
+
+.about-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about-content h1 {
+    font-size: 42px;
+    margin-bottom: 30px;
+    color: #333;
+    font-weight: 700;
+}
+
+.about-content p {
+    font-size: 18px;
+    color: #666;
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+.about-content h2 {
+    font-size: 32px;
+    margin: 40px 0 20px;
+    color: #333;
+    font-weight: 600;
+}
+
+.about-content ul {
+    list-style: none;
+    text-align: left;
+    display: inline-block;
+    margin: 20px 0;
+}
+
+.about-content ul li {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    position: relative;
+}
+
+.about-content ul li:before {
+    content: "✓";
+    color: #667eea;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+}
+
 /* ===== Call to Action Section ===== */
 .cta {
     padding: 80px 45px;
@@ -309,12 +365,21 @@ footer {
     }
 
     .features,
-    .cta {
+    .cta,
+    .about {
         padding: 50px 20px;
     }
 
     .features-grid {
         grid-template-columns: 1fr;
         gap: 20px;
+    }
+
+    .about-content h1 {
+        font-size: 32px;
+    }
+
+    .about-content h2 {
+        font-size: 24px;
     }
 } 
